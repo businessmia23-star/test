@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - IS Svarvning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Logo 2.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/Logo.png" alt="IS Svarvning">
+                <span>IS Svarvning</span>
+            </a>
+            <button id="mobileMenuToggle" class="mobile-menu-toggle" type="button" aria-label="Open navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html"><span class="lang lang-sv">Hem</span><span class="lang lang-en">Home</span></a></li>
+                    <li class="has-dropdown">
+                        <a href="services.html"><span class="lang lang-sv">Tjänster</span><span class="lang lang-en">Services</span></a>
+                        <ul class="dropdown">
+                            <li><a href="services.html"><span class="lang lang-sv">CNC-Svarvning</span><span class="lang lang-en">CNC Turning</span></a></li>
+                            <li><a href="matning.html" class="dropdown-sub"><span class="lang lang-sv">Mätning</span><span class="lang lang-en">Measurement</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html" class="active"><span class="lang lang-sv">Referensgalleri</span><span class="lang lang-en">Gallery</span></a></li>
+                    <li><a href="about.html"><span class="lang lang-sv">Om oss</span><span class="lang lang-en">About Us</span></a></li>
+                    <li><a href="contact.html"><span class="lang lang-sv">Kontakt</span><span class="lang lang-en">Contact</span></a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="quote-btn"><span class="lang lang-sv">Begär offert</span><span class="lang lang-en">Get a Quote</span></a>
+            <button id="langToggle" class="lang-toggle" type="button">SV</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2><span class="lang lang-sv">Referensgalleri</span><span class="lang lang-en">Gallery</span></h2>
+            <p style="text-align: center; max-width: 900px; margin: 0 auto 40px; color: var(--dark-gray);"><span class="lang lang-sv">Här är några exempel på komponenter vi har tillverkat</span><span class="lang lang-en">Here are some examples of components we have manufactured.</span></p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/image.png" alt="CNC turning component">
+                    <div class="gallery-overlay">
+                        <span><span class="lang lang-sv">Precisionkomponent</span><span class="lang lang-en">Precision component</span></span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Gemini_Generated_Image_3085ay3085ay3085.png" alt="CNC machining">
+                    <div class="gallery-overlay">
+                        <span><span class="lang lang-sv">Maskindetalj</span><span class="lang lang-en">Machine part</span></span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Gemini_Generated_Image_5c03sp5c03sp5c03.png" alt="Metal part">
+                    <div class="gallery-overlay">
+                        <span><span class="lang lang-sv">Metallkomponent</span><span class="lang lang-en">Metal component</span></span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Gemini_Generated_Image_71ms5h71ms5h71ms.png" alt="CNC lathe work">
+                    <div class="gallery-overlay">
+                        <span><span class="lang lang-sv">Svarvade delar</span><span class="lang lang-en">Turned parts</span></span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Gemini_Generated_Image_i98gw1i98gw1i98g.png" alt="Industrial component">
+                    <div class="gallery-overlay">
+                        <span><span class="lang lang-sv">Industrikomponent</span><span class="lang lang-en">Industrial component</span></span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Gemini_Generated_Image_itdpf9itdpf9itdp.png" alt="Precision turning">
+                    <div class="gallery-overlay">
+                        <span><span class="lang lang-sv">Precision</span><span class="lang lang-en">Precision</span></span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Gemini_Generated_Image_jmgzhvjmgzhvjmgz.png" alt="Rotating parts">
+                    <div class="gallery-overlay">
+                        <span>Roterande delar</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Gemini_Generated_Image_okfnzeokfnzeokfn_1.png" alt="Machine detail">
+                    <div class="gallery-overlay">
+                        <span>Maskindetaljer</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/2.png" alt="Manufacturing process">
+                    <div class="gallery-overlay">
+                        <span>Tillverkningsprocess</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/10.png" alt="Finished part">
+                    <div class="gallery-overlay">
+                        <span>Färdig produkt</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><span class="lang lang-sv">Följ oss</span><span class="lang lang-en">Follow us</span></h4>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/is_svarvning/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61578666122054" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4><span class="lang lang-sv">Kontakt</span><span class="lang lang-en">Contact</span></h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Vinkelgatan 10, 211 24 Malmö</p>
+                    <p><i class="fas fa-phone"></i> 079-048 74 81</p>
+                    <p><i class="fas fa-envelope"></i> is.svarvning@gmail.com</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4><span class="lang lang-sv">Snabblänkar</span><span class="lang lang-en">Quick links</span></h4>
+                    <div class="footer-nav">
+                        <a href="index.html"><span class="lang lang-sv">Hem</span><span class="lang lang-en">Home</span></a>
+                        <a href="services.html"><span class="lang lang-sv">Tjänster</span><span class="lang lang-en">Services</span></a>
+                        <a href="about.html"><span class="lang lang-sv">Om oss</span><span class="lang lang-en">About us</span></a>
+                        <a href="contact.html"><span class="lang lang-sv">Kontakt</span><span class="lang lang-en">Contact</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 IS Svarvning. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
